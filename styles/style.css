@@ -6,3 +6,100 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family:Calibri;
+    margin:0;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items : center;
+    padding: 10px 20px;
+    height:5vh;
+}
+.navbar img {
+    width:100px;
+}
+.navbar a{
+    text-decoration:none;
+    font-size:1.2em;
+    color:black;
+    font-weight:bold;
+    padding: 0 5px;
+}
+header{
+    background-image:url("../images/landing.jpg");
+    color:white;
+    background-size:cover;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+header h1{
+    font-size:6em;
+}
+header p{
+    font-size:2.5em;
+    width:50%;
+    text-align:center;
+}
+h2{
+    font-size:2.5em;
+}
+.presentation h2{
+    color:black;
+    text-decoration: underline solid #00B172 3px;
+    text-align:center;
+    margin-bottom:5vh;
+}
+.contenu{
+    display:flex;
+    justify-content: space-around;
+}
+.boxes{
+    text-align:center;
+    border : solid 3px black;
+}
+.boxes h3{
+    color:#00B172;
+    font-size:2em;
+}
+.boxes p{
+    font-size:1.7em;
+}
+.boxes img{
+    width:100px;
+}
+
+footer{
+    background : #00B172;
+    color: white;
+    margin : 0 5%;
+    padding: 5%;
+}
+footer h2{
+    text-decoration: underline solid white 3px;
+}
+footer h3{
+    font-size:2em;
+}
+footer p{
+    font-size:1.7em;
+}
+.rangement{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border: solid 3px black;
+}
+.icon_spotify{
+    width:20%;
+    margin:5%;
+}
+.screenshot{
+    height:80vh;
+
+}
